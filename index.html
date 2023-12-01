@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Página de Consulta</title>
+</head>
+<body>
+
+<div id="app">
+    <div class="filter-section">
+        <div class="search-fields">
+            <label for="material">Material:</label>
+            <input  type="text" id="material" placeholder="Buscar por Material">
+            
+            <label for="structure">Structure/Component:</label>
+            <input  type="text" id="structure" placeholder="Buscar por Structure/Component">
+            
+            <label for="ageingEffect">Ageing Effect:</label>
+            <input  type="text" id="ageingEffect" placeholder="Buscar por Ageing Effect">
+            
+            <label for="degradationMechanism">Degradation Mechanism:</label>
+            <input  type="text" id="degradationMechanism" placeholder="Buscar por Degradation Mechanism">
+            
+            <label for="tag">Tag:</label>
+            <input  type="text" id="tag" placeholder="Buscar por Tag">
+        </div>
+
+        <div class="column-options">
+            <label>Mostrar columnas:</label>
+            <label><input type="checkbox" > Material</label>
+            <label><input type="checkbox" > Structure/Component</label>
+            <label><input type="checkbox" >Ageing Effect</label>
+            <label><input type="checkbox" > Degradation Mechanism</label>
+            <label><input type="checkbox" > Design</label>
+            <label><input type="checkbox" > AMP</label>
+            <label><input type="checkbox" > TLAA</label>
+        </div>
+
+        <button >Buscar</button>
+    </div>
+
+    <div class="result-section">
+        <table>
+            <thead>
+                <tr>
+                    <th>Material</th>
+                    <th>Structure/Component</th>
+                    <th>Ageing Effect</th>
+                    <th>Degradation Mechanism</th>
+                    <th>Design</th>
+                    <th>AMP</th>
+                    <th >TLAA</th>
+                </tr>
+            </thead>
+            
+        </table>
+    </div>
+</div>
+
+
+</body>
+</html>
